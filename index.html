@@ -6,22 +6,31 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>FurniShop</title>
 </head>
-<body>
-    <header class="w-full bg-blue-500 h-64">
-        <menu class="text-white flex">
-            <h1 class="Logo text-4xl font-bold">FurniShop</h1>
-            <li>
-                <a href="#home">Home</a>
-            </li>
-            <li>
-                <a href="#About">About</a>
-            </li>
-            <li>
-                <a href="#Features">Features</a>
-            </li>
-            <li>
-                <a href="#Contact">Contact</a>
-            </li>
+<body class="h-full w-full bg-gray-500  flex flex-col overflow-hidden">
+    <div class="absolute inset-0 -z-50 flex items-center justify-center">
+    <img 
+      src="./background.png" 
+      alt="Fundo FurniShop" 
+      class="w-full h-full object-cover min-w-full min-h-full"
+    >
+    </div>
+    <header class="w-full h-[16%] min-h-[80px] ">
+        <menu class="h-full text-white flex flex-wrap items-end pb-[44px] relative justify-between">
+            <h1 class="Logo text-4xl font-bold ml-[130px] pt-[28px]">FurniShop</h1>
+            <submenu class=" flex items-center gap-16 mr-[150px]">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Features">Features</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                 </li>
+            </submenu>
         </menu>
     </header>
     <main></main>
